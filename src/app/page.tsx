@@ -41,6 +41,21 @@ export default function HomePage() {
                 <Link href="/recommendations">Explore Local Gems</Link>
               </Button>
             </div>
+            <div className="mt-12">
+              <div className="relative aspect-[16/6] w-full max-w-3xl mx-auto">
+                 <Image
+                    src="https://placehold.co/800x300.png"
+                    alt="Explore Ocean City"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg shadow-md"
+                    data-ai-hint="ocean city"
+                  />
+              </div>
+              <p className="mt-4 text-md text-muted-foreground">
+                Discover more beautiful sights and activities around the area.
+              </p>
+            </div>
           </CardContent>
         </Card>
       </div>
