@@ -1,5 +1,6 @@
-# Firebase Studio
+Coastal Concierge
 
-This is a NextJS starter in Firebase Studio.
+It is a project to help short term rental properties help with customer service.
+I doubt anyone will end up seeing this as I am not a developer in the traditional sense, but please provide any feedback you may have as I would love some perspective on how to make this better. 
 
-To get started, take a look at src/app/page.tsx.
+Thank you!
