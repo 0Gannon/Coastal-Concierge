@@ -1,3 +1,4 @@
+
 import AppLayout from '@/components/layout/AppLayout';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -11,11 +12,11 @@ export default function HomePage() {
         <Card className="shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-xl">
           <div className="relative h-64 w-full">
             <Image 
-              src="https://placehold.co/1200x400.png" 
-              alt="Ocean City Beach" 
+              src="/oc-hero-image.jpg" 
+              alt="Beautiful view of Ocean City beach and boardwalk" 
               layout="fill" 
               objectFit="cover"
-              data-ai-hint="beach Maryland"
+              data-ai-hint="ocean city beach"
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
               <h1 className="text-5xl font-headline font-bold text-white text-center drop-shadow-lg">
@@ -49,7 +50,7 @@ export default function HomePage() {
                     layout="fill"
                     objectFit="cover"
                     className="rounded-lg shadow-md"
-                    data-ai-hint="ocean city"
+                    data-ai-hint="ocean city boardwalk"
                   />
               </div>
               <p className="mt-4 text-md text-muted-foreground">
